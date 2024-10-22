@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Londrina+Sketch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+/* header {
+    border: 2px solid yellowgreen;
+} */
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+header :is(a:hover, a:focus) {
+    color: whitesmoke;
+}
+
+main {
+    background-color: rgb(27, 27, 27);
+    width: 100vw;
+    height: 100vh;
+}
+
+main img {
+    width: 100vw;
+    height: 100vh;
+}
+
+main p {
+    z-index: 1;
+}
+
+.home {
+    position: relative;
+    background-color: black;
+}
+
+.name {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+
+.name p {
+    font-weight: 400;
+    color: white;
+}
+
+.surname {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.title {
+    font-size: 90px;
+}
+
+.role {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+.name a {
+    text-decoration: none;
+    border: 2px solid darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    position: relative;
+    top: 30px;
+    font-weight: 500;
+}
+
+.name :is(a:hover, a:focus) {
+    background-color: grey;
+    color: black;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
