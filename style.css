@@ -55,7 +55,6 @@ header nav :is(a:hover, a:focus) {
    /*  border: 5px solid rebeccapurple; */
     background-image: url(images/main-image_upscaled.png);
     background-size: 1920px 900px;
-    background-attachment: fixed;
 }
 
 .about, .skills, .services {
@@ -178,8 +177,6 @@ header nav :is(a:hover, a:focus) {
 .about {
     background-image: url(images/black-textured-background.jpg), radial-gradient(rgb(49, 49, 49), black);
     background-size: cover;
-    background-attachment: fixed;
-
 }
 
 .aboutHeading {
@@ -221,6 +218,5 @@ header nav :is(a:hover, a:focus) {
 .skills {
     background-image: url(images/black-textured-background\ \(copy\).jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-position: bottom;
 }
