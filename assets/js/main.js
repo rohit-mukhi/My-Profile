@@ -13,3 +13,22 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+const text = document.querySelector(".sec-text");
+
+const textLoad = () => {
+  setTimeout(() => {
+    text.textContent = "Web Developer";
+  }, 0);
+
+  setTimeout(() => {
+    text.textContent = "Software Developer";
+  }, 4000);
+
+  setTimeout(() => {
+    text.textContent = "Quantum Enthusiast";
+  }, 8000);
+}
+
+textLoad();
+setInterval(textLoad, 12000);
