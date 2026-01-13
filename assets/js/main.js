@@ -50,11 +50,11 @@ const textLoad = () => {
 
   setTimeout(() => {
     text.textContent = "Software Developer";
-  }, 4050);
+  }, 4080);
 
   setTimeout(() => {
     text.textContent = "Quantum Enthusiast";
-  }, 8050);
+  }, 8080);
 }
 
 textLoad();
